@@ -5,7 +5,7 @@ Using Azure, I built, secured, and protected a cloud application that hosts a cy
 ![image](https://user-images.githubusercontent.com/112778924/211407493-9f38e0c6-1621-4300-be70-11e962a57f59.png)
 
 # Deployed a Docker Container on the Web App using Azure Cloud Shell for Bash
-az webapp config container set --name instantmanablog --resource-group redteamRG --docker-custom-image-name cyberxsecurity/project1-apachewebserver --enable-app-service-storage -t
+az webapp config container set --name <name of your webapp> --resource-group <name of your resource group> --docker-custom-image-name <container-name> --enable-app-service-storage -t
 
 # Edited my HTML file by using SSH right into the container
 [index-html.txt](https://github.com/dsylvest/Instant-Mana-Blog/files/10376936/index-html.txt)
