@@ -28,3 +28,6 @@ openssl pkcs12 -export -out <new_certificatename.pfx> -inkey <keyname.key> -in <
 
 # Used Microsoft Defender for Cloud to analyze and fix any security recommendations for my cloud resources
 Changed access into the web application to require FTPS based on recommendations.
+
+# Final Product
+![image](https://user-images.githubusercontent.com/112778924/211415644-763f0e38-08f3-4407-aec6-9bb3e753924a.png)
