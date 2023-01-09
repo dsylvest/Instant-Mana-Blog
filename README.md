@@ -11,6 +11,7 @@ az webapp config container set --name instantmanablog --resource-group redteamRG
 [index-html.txt](https://github.com/dsylvest/Instant-Mana-Blog/files/10376936/index-html.txt)
 
 # Created Azure Key Vault to store a self-signed certificate
+![image](https://user-images.githubusercontent.com/112778924/211413860-41bb266e-0d5b-48ec-a32b-732e751128a4.png)
 
 # Used OpenSSL to generate a self-signed certificate
 openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout <privatekeyname.key> -out <certificatename.crt> -addext "extendedKeyUsage=serverAuth"
